@@ -3,7 +3,7 @@
 ## 🎙 **PROJECT**
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2019</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">National-level Project 2025</div><img src='images/project1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Not yet updated](https://UI/) \\
