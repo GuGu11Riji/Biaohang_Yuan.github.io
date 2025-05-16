@@ -1,69 +1,78 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
+# ─────────────────────────────────────────────────────────────────────────────
 # Site Settings
-title                    : "Biaohang Yuan (袁彪航)"
-description              : "I am interested in AI interpretability and AI safety."
-repository               : "https://gugu11riji.github.io/BiaohangYuan.github.io/"
-google_scholar_stats_use_cdn : true
+# ─────────────────────────────────────────────────────────────────────────────
 
-# google analytics
-google_analytics_id      : G-SWFCX99KQZ
+title:       "Biaohang Yuan (袁彪航)"
+description: "I am interested in AI interpretability and AI safety."
+repository:  "gugu11riji/BiaohangYuan.github.io"   # “owner/repo” 格式，去掉 https:// 前缀
 
+google_scholar_stats_use_cdn: true
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Google Analytics
+# ─────────────────────────────────────────────────────────────────────────────
+
+google_analytics_id: "G-SWFCX99KQZ"              # 放在引号里更保险
+
+# ─────────────────────────────────────────────────────────────────────────────
 # SEO Related
-google_site_verification : b_BbOIt7d513ZXYDw-YRMicO6O5tthYiouqWDdWjGTU
-bing_site_verification   : B5AA590E7B9C03956A6F7DEC0F776211
-baidu_site_verification  : code-ZxFK3f4pfb
+# ─────────────────────────────────────────────────────────────────────────────
 
+google_site_verification: "b_BbOIt7d513ZXYDw-YRMicO6O5tthYiouqWDdWjGTU"
+bing_site_verification:   "B5AA590E7B9C03956A6F7DEC0F776211"
+baidu_site_verification:  "code-ZxFK3f4pfb"
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Site Author
+# ─────────────────────────────────────────────────────────────────────────────
+
 author:
-  name             : "Biaohang Yuan (袁彪航)"
-  avatar           : "images/ry_profile.jpeg"
-  bio              : ""
-  location         : "Singapore"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=4FA6C0AAAAAJ"
-  email            : "GuloveLY@outlook.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "RayeRen"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : "rayeren"
-  dblp             : "https://dblp.org/pid/75/6568-6.html"
-  orcid            : "https://orcid.org/0000-0002-9160-3848"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  name:          "Biaohang Yuan (袁彪航)"
+  avatar:        "images/ry_profile.jpeg"
+  bio:           ""
+  location:      "Singapore"
+  employer:      ""
+  pubmed:        ""
+  googlescholar: "https://scholar.google.com/citations?user=4FA6C0AAAAAJ"
+  email:         "GuloveLY@outlook.com"
+  researchgate:  ""
+  uri:           ""
+  bitbucket:     ""
+  codepen:       ""
+  dribbble:      ""
+  flickr:        ""
+  facebook:      ""
+  foursquare:    ""
+  github:        "gugu11riji"   # 填你的 GitHub 用户名
+  google_plus:   ""
+  keybase:       ""
+  instagram:     ""
+  impactstory:   ""
+  lastfm:        ""
+  linkedin:      "rayeren"
+  dblp:          "https://dblp.org/pid/75/6568-6.html"
+  orcid:         "https://orcid.org/0000-0002-9160-3848"
+  pinterest:     ""
+  soundcloud:    ""
+  stackoverflow: ""
+  steam:         ""
+  tumblr:        ""
+  twitter:       ""
+  vine:          ""
+  weibo:         ""
+  xing:          ""
+  youtube:       ""
+  wikipedia:     ""
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Include / Exclude / Keep
+# ─────────────────────────────────────────────────────────────────────────────
 
-# Reading Files
 include:
   - .htaccess
   - _pages
   - files
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -90,61 +99,72 @@ exclude:
   - vendor
   - google_scholar_crawler
   - github_myprofile_updater
+
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Encoding & Markdown
+# ─────────────────────────────────────────────────────────────────────────────
+
+encoding:    "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Conversion
-markdown: kramdown
+markdown:    kramdown
 highlighter: rouge
-lsi: false
+lsi:         false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-# Markdown Processing
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# ─────────────────────────────────────────────────────────────────────────────
 # Defaults
+# ─────────────────────────────────────────────────────────────────────────────
+
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: default
+      layout:         default
       author_profile: true
 
-
+# ─────────────────────────────────────────────────────────────────────────────
 # Sass/SCSS
+# ─────────────────────────────────────────────────────────────────────────────
+
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style:    compressed
 
-
+# ─────────────────────────────────────────────────────────────────────────────
 # Outputting
-permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# ─────────────────────────────────────────────────────────────────────────────
 
+permalink:  /:categories/:title/
+timezone:   Asia/Shanghai
 
-# Plugins
+# ─────────────────────────────────────────────────────────────────────────────
+# Plugins (GitHub Pages 支持列表)
+# ─────────────────────────────────────────────────────────────────────────────
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -153,10 +173,12 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+# ─────────────────────────────────────────────────────────────────────────────
+# HTML Compression (可选)
+# ─────────────────────────────────────────────────────────────────────────────
 
-# HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
+
